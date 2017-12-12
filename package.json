@@ -12,5 +12,11 @@
     "server"
   ],
   "author": "dmitry tinitilov",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/dmitrytinitilov/bruteser.git"
+  }
+  
 }

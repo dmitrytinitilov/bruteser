@@ -28,7 +28,13 @@ var server = http.createServer(function(req, res) {
 
 	fs.readFile('public'+filepath, function (err, data){
 		if (err) {
-			res.end("File wasn't found");
+			if (filepath === '/index.html') {
+				res.end("It seems there is no index.html file in 'public' directory");
+			} else {
+				res.end("There is no file by this address");
+			}
+
+			
 
 		}
 		res.end(data);
