@@ -13,10 +13,11 @@
   ],
   "author": "dmitry tinitilov",
   "license": "MIT",
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/dmitrytinitilov/bruteser.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitrytinitilov/bruteser.git"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
-  
 }
